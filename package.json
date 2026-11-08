@@ -1,0 +1,17 @@
+{
+  "name": "node-10-express-intro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Exercise 10 - Express.js intro: first endpoints, route params, internal fetch and an action-based POST - starter with tests",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test --test-reporter=./test/reporter.mjs test/part1.test.js test/part2.test.js test/part3.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
